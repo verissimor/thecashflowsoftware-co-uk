@@ -12,7 +12,7 @@ export const CreateAccountForm = () => {
   return (
     <form
       acceptCharset="UTF-8"
-      action={`https://${process.env.NEXT_PUBLIC_DOMAIN}/api/account/public/accounts-form`}
+      action={`https://${process.env.NEXT_PUBLIC_APP_DOMAIN}/api/account/public/accounts-form`}
       autoComplete="true"
       className="flex flex-wrap"
       id="form-cadastro"
@@ -81,7 +81,7 @@ export const CreateAccountForm = () => {
         type="hidden"
         id="cadastro-domain"
         name="domain"
-        value={process.env.NEXT_PUBLIC_DOMAIN}
+        value={process.env.NEXT_PUBLIC_APP_DOMAIN}
       />
       <input
         type="hidden"

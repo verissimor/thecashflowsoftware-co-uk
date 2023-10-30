@@ -40,7 +40,7 @@ export const Header = () => {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
-              href={`https://${process.env.NEXT_PUBLIC_DOMAIN}`}
+              href={`https://${process.env.NEXT_PUBLIC_APP_DOMAIN}`}
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               <LockClosedIcon className="inline w-4" /> Log in{" "}

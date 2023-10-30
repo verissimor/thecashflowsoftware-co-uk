@@ -53,7 +53,7 @@ export const MobileMenu = ({ navigation }) => {
               </div>
               <div className="py-6">
                 <a
-                  href={`https://${process.env.NEXT_PUBLIC_DOMAIN}`}
+                  href={`https://${process.env.NEXT_PUBLIC_APP_DOMAIN}`}
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   <LockClosedIcon className="inline w-4" /> Log in <span aria-hidden="true">&rarr;</span>
