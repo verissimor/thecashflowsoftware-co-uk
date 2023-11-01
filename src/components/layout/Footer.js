@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "./header/Logo";
+import { TagManager } from "./footer/TagManager";
 
 export const Footer = () => {
   const currentDate = new Date();
@@ -24,6 +25,8 @@ export const Footer = () => {
           <Link href="/cash-flow-software-free">Cash Flow Software Free</Link>
         </div>
       </div>
+
+      <TagManager />
     </footer>
   );
 };
