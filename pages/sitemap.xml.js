@@ -8,6 +8,12 @@ function generateSiteMap(pages) {
      <url>
        <loc>${siteUrl}</loc>
      </url>
+     <url>
+       <loc>${siteUrl}/privacy-policy</loc>
+     </url>
+     <url>
+       <loc>${siteUrl}/terms-of-service</loc>
+     </url>
      ${pages
        .map((page) => {
          return `
