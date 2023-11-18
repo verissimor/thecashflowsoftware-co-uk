@@ -1,3 +1,5 @@
+"use client";
+
 const issueToken = () => {
   var now = Date.now();
   var nowM5 = now - 5; // Subtract 5 minutes in milliseconds
