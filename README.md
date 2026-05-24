@@ -44,3 +44,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - ✅ check the error with tags and recurring payments
 - ✅ check wrong label
 - ✅ Tweaks the responsive
+- ✅ Migrated repo from GitLab to GitHub (Vercel free tier requires public GitHub repo)
